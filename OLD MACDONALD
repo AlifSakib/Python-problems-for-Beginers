@@ -1,0 +1,13 @@
+old_macdonald('macdonald') --> MacDonald
+
+Note: 'macdonald'.capitalize() returns 'Macdonald'
+
+def old_macdoland(name):
+
+    first_letter = name[0:3]
+
+    forth_letter = name[3:]
+
+    return first_letter.capitalize() + forth_letter.capitalize()
+p = old_macdoland('macdonald')
+print(p)
