@@ -1,0 +1,16 @@
+ Given a sentence, return a sentence with the words reversed
+master_yoda('I am home') --> 'home am I'
+master_yoda('We are ready') --> 'ready are We'
+
+def master_yoda(text):
+    word_in_list = text.split()
+    revarse_is = word_in_list[::-1]
+    return ' '.join(revarse_is)
+
+s =master_yoda('We are ready')
+print(s)
+
+or 
+
+def master_yoda(text):
+    return ' '.join(text.split()[::-1])
